@@ -1,9 +1,3 @@
-import pandas as pd
-import numpy as np
-
-import matplotlib.pyplot as plt
-import matplotlib as matplotlib
-
 from torch.nn.parameter import Parameter
 from torch import (
     linalg,
@@ -11,11 +5,17 @@ from torch import (
     Tensor,
     stack,
     cat,
-    transpose, 
+    transpose,
     optim,
     zeros,
     diag
     )
+
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import matplotlib as matplotlib
 
 
 class MyRNN(nn.Module):
